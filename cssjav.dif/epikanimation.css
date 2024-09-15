@@ -1,0 +1,2074 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jersey+10&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Orbitron:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 150%;
+    background-image: url(councilimg/slava-auchynnikau-g9IIj_5gQ_8-unsplash\ \(1\).jpg); 
+    background-size: cover;
+    background-color: rgba(255,255,255,0.2);
+    background-blend-mode: darken;
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+    height: 100vh;
+}
+.councils{
+    position: absolute;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    text-align: center;
+
+}
+.headertext{
+    position: absolute;
+    text-align: center;
+    color: #b8e7ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .headertext{
+      font-size: 30px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    header{
+      height: 50vh;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .headertext{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  header{
+    height: 70vh;
+  }
+
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .headertext{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+  }
+  header{
+    height: 100vh;
+  }
+}
+section{
+    position: relative;
+    height: 100%;
+}
+.epikiaea{
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #b8e7ff;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+.epikiaea .iaea .img{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    top: 30px;
+    left: 50px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slidein1 {
+    from{
+        left: -100%;
+        opacity: 0;
+    }to{
+        left: 50px;
+        opacity: 1;
+    }
+}
+.epikiaea .iaea .h1{
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 85px;
+    color: #88d2f8f9;
+    font-size: 90px;
+    font-family: "Roboto Condensed", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slidein {
+    from{
+        left: -50%;
+        opacity: 0;
+    }to{
+        left: 300px;
+        opacity: 1;
+    }
+}
+
+.infoiaea{
+    position: relative;
+    width: 100%;
+}
+.infoiaea img {
+    width: 400px;
+    height: 500px;
+}
+
+.infoiaea .dixy{
+    display: block;
+    position: relative;
+    left: 70%;
+    margin-top: -5%;
+    overflow: hidden;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 60%;
+}
+@keyframes slidein4 {
+    from{
+        left: 150%;
+    }to{
+        left: 70%;
+    }
+}
+
+
+.infoiaea .quote{
+    display: block;
+    position: absolute;
+    width: 61%;
+    top: 20%;
+    left: 30px;
+    font-size: 30px;
+    text-align: right;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+}
+@keyframes slidein3 {
+    from{
+        opacity: 0;
+        left: -50%;
+    }to{
+        opacity: 1;
+        left: 30px;
+
+    }
+}
+
+.infoiaea .infoiaean{
+    position: relative;
+    display: block;
+    width: 65%;
+    height: 100%;
+    left: 30px;
+    bottom: 150px;
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+
+@keyframes dissapear {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 550px) {
+    .epikiaea .iaea img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .iaea .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 30px;
+    }
+    .epikiaea .iaea .h1{
+        display: block;
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        color: #88d2f8f9;
+        font-size: 60px;
+    }
+    .infoiaea{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .infoiaea img {
+        width: 300px;
+        height: 350px;
+    }
+    .infoiaea .dixy{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -20px;
+        transform: translate(-50%,20%);
+        overflow: hidden;
+    }
+    .infoiaea .quote{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 67%;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infoiaea .infoiaean{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100%;
+        left: 30px;
+        top: 390px;
+        font-size:20px;
+    }
+  }
+@media screen and (min-width: 550px) {
+    .epikiaea .iaea img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .iaea .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 30px;
+    }
+    .infoiaea{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .epikiaea .iaea .h1{
+        display: block;
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        color: #88d2f8f9;
+        font-size: 60px;
+    }
+    .infoiaea img {
+        width: 300px;
+        height: 350px;
+    }
+    .infoiaea .dixy{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -20px;
+        transform: translate(-50%,20%);
+        overflow: hidden;
+    }
+    .infoiaea .quote{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 400px;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infoiaea .infoiaean{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100%;
+        left: 30px;
+        top: 250px;
+        font-size:20px;
+    }
+  }
+  @media screen and (min-width: 950px) {
+    .epikiaea .iaea img{
+        height: 225px;
+        width: 225px;
+    }
+    .epikiaea .iaea .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 50px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein1 {
+        from{
+            left: -100%;
+            opacity: 0;
+        }to{
+            left: 50px;
+            opacity: 1;
+        }
+    }
+    .epikiaea .iaea .h1{
+        display: block;
+        position: absolute;
+        left: 300px;
+        top: 85px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein {
+        from{
+            left: -50%;
+            opacity: 0;
+        }to{
+            left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .infoiaea{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .infoiaea img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .infoiaea .dixy{
+        display: block;
+        position: relative;
+        left: 70%;
+        margin-top: 0;
+        overflow: hidden;
+        transform: translate(0,0);
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 60%;
+    }
+    @keyframes slidein4 {
+        from{
+            left: 150%;
+        }to{
+            left: 70%;
+        }
+    }
+    
+    
+    .infoiaea .quote{
+        display: block;
+        position: absolute;
+        width: 61%;
+        margin-top: 0px;
+        left: 30px;
+        top: 80px;
+        left: 30px;
+        font-size: 30px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slidein3 {
+        from{
+            opacity: 0;
+            left: -50%;
+        }to{
+            opacity: 1;
+            left: 30px;
+    
+        }
+    }
+    
+    .infoiaea .infoiaean{
+        top: auto;
+        position: relative;
+        display: block;
+        width: 65%;
+        height: 100%;
+        left: 30px;
+        bottom: 150px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+  }
+  
+  /* For medium devices */
+  
+  @media screen and (min-width: 1300px){
+    .epikiaea .iaea img{
+        height: 225px;
+        width: 225px;
+    }
+    .epikiaea .iaea .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 50px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein1 {
+        from{
+            left: -100%;
+            opacity: 0;
+        }to{
+            left: 50px;
+            opacity: 1;
+        }
+    }
+    .epikiaea .iaea .h1{
+        display: block;
+        position: absolute;
+        left: 300px;
+        top: 85px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein {
+        from{
+            left: -50%;
+            opacity: 0;
+        }to{
+            left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .infoiaea{
+        position: relative;
+        width: 100%;
+    }
+    .infoiaea img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .infoiaea .dixy{
+        display: block;
+        position: relative;
+        left: 70%;
+        margin-top: -5%;
+        overflow: hidden;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 60%;
+    }
+    @keyframes slidein4 {
+        from{
+            left: 150%;
+        }to{
+            left: 70%;
+        }
+    }
+    
+    
+    .infoiaea .quote{
+        display: block;
+        position: absolute;
+        width: 61%;
+        top: 20%;
+        left: 30px;
+        bottom: 150px;
+        font-size: 30px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slidein3 {
+        from{
+            opacity: 0;
+            left: -50%;
+        }to{
+            opacity: 1;
+            left: 30px;
+    
+        }
+    }
+    
+    .infoiaea .infoiaean{
+        position: relative;
+        display: block;
+        width: 65%;
+        height: 100%;
+        left: 30px;
+        bottom: 150px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+  }
+.epikiaea .asean img{
+    width: 225px;
+    height: 225px;
+}
+
+.epikiaea .asean .img{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    margin-top: -5%;
+    left: 83%;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slideinright {
+    from{
+        opacity: 0;
+        left: 150%;
+    }to{
+        opacity: 1;
+        left: 83%;
+    }
+}
+.epikiaea .asean .h1{
+    display: block;
+    position: relative;
+    top: 100px;
+    color: #88d2f8f9;
+    font-size: 90px;
+    left: 63%;
+    font-family: "Roboto Condensed", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slideinright1 {
+    from{
+        opacity: 0;
+        left: 150%;
+    }to{
+        opacity: 1;
+        left: 63%;
+    }
+}
+
+.infoasean{
+    position: relative;
+    width: 100%;
+}
+.infoasean img {
+    width: 500px;
+    height: 500px;
+}
+.infoasean .prabowo{
+    display: block;
+    position: relative;
+    top: 20% ;
+    left: 30px;
+    overflow: hidden;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 70%;
+}
+@keyframes slideinright4 {
+    from{
+        left: -100%;
+    }to{
+        left: 30px;
+    }
+}
+
+
+.infoasean .quote2{
+    display: block;
+    position: absolute;
+    width: 58%;
+    top: 10%;
+    left: 40%;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+}
+@keyframes slideinright3 {
+    from{
+        left: 150%;
+    }to{
+        left: 40%;
+    }
+}
+
+
+.infoasean .infoaseann{
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    bottom: 150px;
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 50%;
+}
+
+@keyframes dissapear {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .asean{
+        position: relative;
+        top: 340px;
+    }
+    .epikiaea .asean img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .asean .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        left: 65%;
+    }
+    .epikiaea .asean .h1{
+        display: block;
+        position: relative;
+        left: 20%;
+        top: 95px;
+        color: #88d2f8f9;
+        font-size: 60px;
+    }
+
+    .infoasean{
+        position: relative;
+        top: 280px;
+    }
+    .infoasean img {
+        width: 300px;
+        height: 350px;
+    }
+    .infoasean .prabowo{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -20px;
+        transform: translate(-50%,20%);
+        overflow: hidden;
+    }
+    .infoasean .quote2{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 400px;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infoasean .infoaseann{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100%;
+        left: 30px;
+        top: 380px;
+        font-size:20px;
+    }
+  }
+@media screen and (min-width: 550px) {
+    .asean{
+        position: relative;
+        top: 260px;
+    }
+    .epikiaea .asean img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .asean .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        left: 70%;
+    }
+    .epikiaea .asean .h1{
+        display: block;
+        position: relative;
+        top: 85px;
+        color: #88d2f8f9;
+        font-size: 60px;
+        left: 48%;
+    }
+
+    .infoasean{
+        position: relative;
+        top: 220px;
+    }
+    .infoasean img {
+        width: 300px;
+        height: 350px;
+    }
+    .infoasean .prabowo{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -20px;
+        transform: translate(-50%,20%);
+        overflow: hidden;
+    }
+    .infoasean .quote2{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 400px;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infoasean .infoaseann{
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 100%;
+        left: 30px;
+        top: 310px;
+        font-size:20px;
+    }
+  }
+  @media screen and (min-width: 950px) {
+    .asean{
+        position: inherit;
+        top: 0;
+    }
+    .epikiaea .asean img{
+        width: 225px;
+        height: 225px;
+    }
+    
+    .epikiaea .asean .img{
+        position: relative;
+        display: block;
+        top: 0%;
+        border-radius: 50%;
+        margin-top: -5%;
+        left: 77%;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+        
+    }
+    @keyframes slideinright {
+        from{
+            opacity: 0;
+            left: 150%;
+        }to{
+            opacity: 1;
+            left: 83%;
+        }
+    }
+    .epikiaea .asean .h1{
+        display: block;
+        position: relative;
+        top: 100px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        left: 51%;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slideinright1 {
+        from{
+            opacity: 0;
+            left: 150%;
+        }to{
+            opacity: 1;
+            left: 63%;
+        }
+    }
+    
+    .infoasean{
+        position: inherit;
+        top: 0;
+        width: 100%;
+    }
+    .infoasean img {
+        width: 400px;
+        height: 500px;
+    }
+    .infoasean .prabowo{
+        top: 0;
+        display: block;
+        position: relative;
+        top: -100%;
+        transform: translate(0);
+        left: 30px;
+        overflow: hidden;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 70%;
+    }
+    @keyframes slideinright4 {
+        from{
+            left: -100%;
+        }to{
+            left: 30px;
+        }
+    }
+    
+    
+    .infoasean .quote2{
+        height: 0;
+        top: 0;
+        display: block;
+        position: absolute;
+        width: 58%;
+        left: 40%;
+        font-size: 30px;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slideinright3 {
+        from{
+            left: 150%;
+        }to{
+            left: 40%;
+        }
+    }
+    
+    
+    .infoasean .infoaseann{
+        position: inherit;
+        top: -300%;
+        display: block;
+        width: 50%;
+        height: 100%;
+        left: 45%;
+        bottom: 190px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 12s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 50%;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+    
+  }
+  
+  /* For medium devices */
+  
+  @media screen and (min-width: 1300px){
+    .epikiaea .asean img{
+        width: 225px;
+        height: 225px;
+    }
+    
+    .epikiaea .asean .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        margin-top: -5%;
+        left: 83%;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slideinright {
+        from{
+            opacity: 0;
+            left: 150%;
+        }to{
+            opacity: 1;
+            left: 83%;
+        }
+    }
+    .epikiaea .asean .h1{
+        display: block;
+        position: relative;
+        top: 100px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        left: 63%;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slideinright1 {
+        from{
+            opacity: 0;
+            left: 150%;
+        }to{
+            opacity: 1;
+            left: 63%;
+        }
+    }
+    .infoasean{
+        position: relative;
+        width: 100%;
+    }
+    .infoasean img {
+        width: 500px;
+        height: 500px;
+    }
+    .infoasean .prabowo{
+        display: block;
+        position: relative;
+        top: 20% ;
+        left: 30px;
+        overflow: hidden;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 70%;
+    }
+    @keyframes slideinright4 {
+        from{
+            left: -100%;
+        }to{
+            left: 30px;
+        }
+    }
+    
+    
+    .infoasean .quote2{
+        display: block;
+        position: absolute;
+        width: 58%;
+        top: 10%;
+        left: 40%;
+        font-size: 30px;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slideinright3 {
+        from{
+            left: 150%;
+        }to{
+            left: 40%;
+        }
+    }
+    
+    
+    .infoasean .infoaseann{
+        position: relative;
+        display: block;
+        width: 60%;
+        height: 100%;
+        left: 40%;
+        bottom: 150px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 12s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 50%;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+  }
+.epikiaea .copous img{
+    width: 225px;
+    height: 200px;
+}
+.epikiaea .copous .img{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    top: -65px;
+    left: 50px;
+    animation-name:dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slidein1 {
+    from{
+        left: -100%;
+        opacity: 0;
+    }to{
+        left: 50px;
+        opacity: 1;
+    }
+}
+.epikiaea .copous .h1{
+    display: block;
+    position: relative;
+    left: 300px;
+    top: 85px;
+    color: #88d2f8f9;
+    font-size: 90px;
+    font-family: "Roboto Condensed", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+@keyframes slidein {
+    from{
+        left: -50%;
+        opacity: 0;
+    }to{
+        left: 300px;
+        opacity: 1;
+    }
+}
+
+.infocopous{
+    position: relative;
+    width: 100%;
+}
+.infocopous img {
+    width: 400px;
+    height: 500px;
+}
+
+.infocopous .gustav{
+    display: block;
+    position: relative;
+    margin-top: -5%;
+    left: 70%;
+    overflow: hidden;
+    animation-name: dissapear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 60%;
+}
+@keyframes slidein4 {
+    from{
+        left: 150%;
+    }to{
+        left: 70%;
+    }
+}
+
+
+.infocopous .quote{
+    display: block;
+    position: absolute;
+    width: 61%;
+    top: 15%;
+    left: 30px;
+    font-size: 30px;
+    text-align: right;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+}
+@keyframes slidein3 {
+    from{
+        opacity: 0;
+        left: -50%;
+    }to{
+        opacity: 1;
+        left: 30px;
+
+    }
+}
+
+.infocopous .infoicopousn{
+    position: relative;
+    display: block;
+    width: 65%;
+    height: 100%;
+    left: 30px;
+    bottom: 160px;
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+
+@keyframes dissapear {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 550px) {
+    .copous{
+        position: relative;
+        top: 660px;
+    }
+    .epikiaea .copous img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .copous .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 30px;
+    }
+    .epikiaea .copous .h1{
+        display: block;
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        color: #88d2f8f9;
+        font-size: 60px;
+    }
+    .infocopous{
+        position: relative;
+        top: 800px;
+    }
+    .infocopous{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .infocopous img {
+        width: 300px;
+        height: 350px;
+    }
+    .infocopous .gustav{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -90px;
+        transform: translate(-50%,0%);
+        overflow: hidden;
+    }
+    .infocopous .quote{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 40%;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infocopous .infoicopousn{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100%;
+        left: 30px;
+        top: 250px;
+        font-size:20px;
+    }
+  }
+@media screen and (min-width: 550px) {
+    .copous{
+        position: relative;
+        top: 660px;
+    }
+    .epikiaea .copous img{
+        height: 125px;
+        width: 125px;
+    }
+    .epikiaea .copous .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 30px;
+    }
+    .epikiaea .copous .h1{
+        display: block;
+        position: absolute;
+        left: 180px;
+        top: 55px;
+        color: #88d2f8f9;
+        font-size: 60px;
+    }
+    .infocopous{
+        position: relative;
+        top: 800px;
+    }
+    .infocopous{
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+    .infocopous img {
+        width: 300px;
+        height: 350px;
+    }
+    .infocopous .gustav{
+        display: block;
+        position: relative;
+        left:50%;
+        top: -90px;
+        transform: translate(-50%,0%);
+        overflow: hidden;
+    }
+    .infocopous .quote{
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 10px;
+        top: 47%;
+        left: 30px;
+        font-size: 25px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .infocopous .infoicopousn{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 100%;
+        left: 30px;
+        top: 170px;
+        font-size:20px;
+    }
+  }
+  @media screen and (min-width: 950px) {
+    .copous{
+        position: none;
+        top: 0px;
+    }
+    .epikiaea .copous img{
+        height: 225px;
+        width: 225px;
+    }
+    .epikiaea .copous .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: 30px;
+        left: 50px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein1 {
+        from{
+            left: -100%;
+            opacity: 0;
+        }to{
+            left: 50px;
+            opacity: 1;
+        }
+    }
+    .epikiaea .copous .h1{
+        display: block;
+        position: absolute;
+        left: 300px;
+        top: 85px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein {
+        from{
+            left: -50%;
+            opacity: 0;
+        }to{
+            left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .infocopous{
+        height: 100%;
+        position: relative;
+        width: 100%;
+        top: 0px;
+    }
+    .infocopous img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .infocopous .gustav{
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 70%;
+        margin-top: 0;
+        overflow: hidden;
+        transform: translate(0,0);
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 60%;
+    }
+    @keyframes slidein4 {
+        from{
+            left: 150%;
+        }to{
+            left: 70%;
+        }
+    }
+    
+    
+    .infocopous .quote{
+        display: block;
+        position: absolute;
+        width: 61%;
+        margin-top: 0px;
+        left: 30px;
+        top: 60px;
+        left: 30px;
+        font-size: 30px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slidein3 {
+        from{
+            opacity: 0;
+            left: -50%;
+        }to{
+            opacity: 1;
+            left: 30px;
+    
+        }
+    }
+    
+    .infocopous .infoicopousn{
+        top: auto;
+        position: relative;
+        display: block;
+        width: 65%;
+        height: 100%;
+        left: 30px;
+        bottom: 180px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+  }
+  
+  /* For medium devices */
+  
+  @media screen and (min-width: 1300px){
+    .epikiaea .copous img{
+        width: 225px;
+        height: 200px;
+    }
+    .epikiaea .copous .img{
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        top: -65px;
+        left: 50px;
+        animation-name:dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein1 {
+        from{
+            left: -100%;
+            opacity: 0;
+        }to{
+            left: 50px;
+            opacity: 1;
+        }
+    }
+    .epikiaea .copous .h1{
+        display: block;
+        position: relative;
+        left: 300px;
+        top: 85px;
+        color: #88d2f8f9;
+        font-size: 90px;
+        font-family: "Roboto Condensed", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    @keyframes slidein {
+        from{
+            left: -50%;
+            opacity: 0;
+        }to{
+            left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .infocopous{
+        position: relative;
+        width: 100%;
+    }
+    .infocopous img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .infocopous .gustav{
+        display: block;
+        position: relative;
+        margin-top: -5%;
+        left: 70%;
+        overflow: hidden;
+        animation-name: dissapear;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 60%;
+    }
+    @keyframes slidein4 {
+        from{
+            left: 150%;
+        }to{
+            left: 70%;
+        }
+    }
+    
+    
+    .infocopous .quote{
+        display: block;
+        position: absolute;
+        width: 61%;
+        top: 15%;
+        left: 30px;
+        font-size: 30px;
+        text-align: right;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+    }
+    @keyframes slidein3 {
+        from{
+            opacity: 0;
+            left: -50%;
+        }to{
+            opacity: 1;
+            left: 30px;
+    
+        }
+    }
+    
+    .infocopous .infoicopousn{
+        position: relative;
+        display: block;
+        width: 65%;
+        height: 100%;
+        left: 30px;
+        bottom: 160px;
+        font-size: 25px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    
+    @keyframes dissapear {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+  }
+.topics{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    height: cover;
+    margin-bottom: 150px;
+}
+.color{
+    color: #88d2f8f9;
+    margin-top: -50px;
+    padding: 20px;
+    font-family: "Work Sans", sans-serif;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+.topic{
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    font-weight: 500;
+    height: 150px;
+    background-color: rgba(161, 161, 183, 0.358);
+    backdrop-filter: blur(20px);
+}
+.topics h2{
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 30px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+.topic1 h3{
+    font-family: "Kanit", sans-serif;
+    font-weight: 350;
+    padding: 10px;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+.topic2 h3{
+    font-family: "Kanit", sans-serif;
+    font-weight: 350;
+    animation-name: dissapear;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry cover 40%;
+    opacity: 0;
+}
+
+@media screen and (max-width: 550px){
+    .topics{
+        position: relative;
+        top: 1150px;
+    }
+    .color{
+        color: #88d2f8f9;
+        margin-top: -50px;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    .topic{
+        font-family: "Josefin Sans", sans-serif;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        font-size: 60px;
+        font-weight: 500;
+        height: 150px;
+        background-color: rgba(161, 161, 183, 0.358);
+        backdrop-filter: blur(20px);
+    }
+    .topics h2{
+        font-family: "Roboto Condensed", sans-serif;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin: 30px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    .topic1 h3{
+        font-family: "Kanit", sans-serif;
+        font-weight: 350;
+        padding: 10px;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    .topic2 h3{
+        font-family: "Kanit", sans-serif;
+        font-weight: 350;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+
+}
+@media screen and (min-width: 550px){
+    .topics{
+        position: relative;
+        top: 1150px;
+    }
+    .color{
+        color: #88d2f8f9;
+        margin-top: -50px;
+        padding: 20px;
+        font-size: 30px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+}
+@media screen and (min-width: 950px){
+    .topics{
+        position: relative;
+        top: 0;
+    }
+    .color{
+        color: #88d2f8f9;
+        margin-top: -50px;
+        padding: 20px;
+        font-size: 40px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+}
+@media screen and (min-width: 1300px){
+    .topics{
+         position: relative;
+        top: 0;
+    }
+    .color{
+        color: #88d2f8f9;
+        margin-top: -50px;
+        padding: 20px;
+        font-family: "Work Sans", sans-serif;
+        animation-name: dissapear;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timeline: view();
+        animation-range: entry cover 40%;
+        opacity: 0;
+    }
+    
+}
